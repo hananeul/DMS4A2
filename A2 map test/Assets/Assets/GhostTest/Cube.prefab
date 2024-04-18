@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1379206038429116016}
   - component: {fileID: 3781946579941035376}
   - component: {fileID: 8370082558317604590}
+  - component: {fileID: 6948840755348609577}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Box
@@ -118,3 +119,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7243f7f4e7c6843beb55083f832d0ab6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6948840755348609577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8664369879661245555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46a241f82ce54f72bfdc81cd5cb09cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetTag: Player
+  soundEffect: {fileID: 8300000, guid: 0374eebc5e0fb4691829d6130cc5c311, type: 3}
+  detectionRadius: 7
