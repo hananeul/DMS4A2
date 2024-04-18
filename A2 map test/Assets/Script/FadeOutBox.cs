@@ -25,7 +25,7 @@ public class FadeOutBox : MonoBehaviour
         Color targetColor = new Color(startColor.r, startColor.g, startColor.b, 0f);
 
         float startTime = Time.time;
-        float duration = 2f; // Duration of 2 seconds for the fade-out
+        float duration = 1f; // Duration of 2 seconds for the fade-out
 
         while (Time.time < startTime + duration)
         {
