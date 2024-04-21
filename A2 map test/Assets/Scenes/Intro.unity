@@ -351,7 +351,7 @@ MonoBehaviour:
   text: {fileID: 0}
   tmpProText: {fileID: 880324720}
   delayBeforeStart: 0
-  timeBtwChars: 0.1
+  timeBtwChars: 0.01
   leadingChar: 
   leadingCharBeforeDelay: 0
   startOnEnable: 1
